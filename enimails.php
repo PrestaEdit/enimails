@@ -27,7 +27,6 @@ class EniMails extends Module
      */
     public function hookActionListMailThemes(array $hookParams)
     {
-        dump('e');
         if (!isset($hookParams['mailThemes'])) {
             return;
         }
